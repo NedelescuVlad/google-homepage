@@ -1,33 +1,12 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.navbar {
+	float: right;
+	width: auto;
+	background-color: red;
+	height: 50px;
 }
 
-body {
-	margin:0 10px;
-	font-family: arial, sans-serif;
-}
-
-li {
-	float:right;
-}
-
-li a {
-	font-size: 0.85em;
-	display:block;
-	color:#000;
-	text-align: center;
-	padding:8px 10px;
-	text-decoration: none;
-}
-
-li Button {
-	background-color:blue;
-	color:white;
-	margin:auto;
-}
-
-li a:hover {
-	text-decoration:underline;
+.filler {
+	background-color: blue;
+	height: 50px;
+	overflow: auto;
 }
