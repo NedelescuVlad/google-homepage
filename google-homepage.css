@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 	overflow: hidden;
+	font-size: 0.8em;
 }
 
 nav {
@@ -14,24 +15,22 @@ li {
 	display: inline;
 }
 
+li:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
 nav ul {
 	float:right;
 }
 
 nav li {
 	margin-right: 1em;
-	font-size: 0.8em;
 	font-family: Arial;
-}
-
-nav li:hover {
-	text-decoration: underline;
-}
-
-nav a {
-	text-decoration: none;
-	font-size: 0.9em;
-	color: #333;
 }
 
 .nav-text {
@@ -117,7 +116,7 @@ input[type=text]:focus {
 	border-radius: 1px;
 	border: 1px solid #EEE;
 	background-color: #EEE;
-	font-size: 0.8em;
+	font-size: 13px;
 	font-family: Arial;
 	opacity: .55;
 }
@@ -134,9 +133,12 @@ footer {
 	border-top: 1px solid #DDD;
 	height: 45px;
 	width: 100%;
-	font-size: 0.8em;
 	font-family: Arial;
 	color: #555;
+}
+
+footer ul li {
+	padding: 0 10px;
 }
 
 #footer-left {
@@ -152,20 +154,3 @@ footer {
 	top: -5px;
 	right: 20px;
 }
-
-#footer-left li {
-	padding: 0 10px;
-}
-
-#footer-left li:hover {
-	text-decoration: underline;
-}
-
-#footer-right li {
-	padding: 0 10px;
-}
-
-#footer-right li:hover {
-	text-decoration: underline;
-}
-
