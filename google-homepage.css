@@ -1,12 +1,63 @@
-.navbar {
-	float: right;
-	width: auto;
-	background-color: red;
-	height: 50px;
+nav {
+	width: 100%;
+	position: relative;
+	right: 5px;
+	top: -10px;
 }
 
-.filler {
-	background-color: blue;
-	height: 50px;
-	overflow: auto;
+nav ul {
+	float:right;
+}
+
+nav li {
+	margin-right: 1em;
+	display: inline;
+	font-size: 0.8em;
+	font-family: Arial;
+}
+
+nav li:hover {
+	text-decoration: underline;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #333;
+}
+
+.nav-text {
+	position: relative;
+	top: -8px;
+}
+
+#grid {
+	opacity: .55;
+	width: 26px;
+	height: 26px;
+}
+
+#grid:hover {
+	opacity: 1;
+}
+
+#bell {
+	position: relative;
+	top: -4px;
+	background-color: #999;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+}
+
+#bell:hover {
+	background-color: #AAA;
+}
+
+#logo {
+	position: relative;
+	top: 1px	;
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
 }
